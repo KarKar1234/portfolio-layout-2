@@ -1,10 +1,10 @@
 
 import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import { faArrowPointer, faArrowUpRightFromSquare, faLink, faLinkSlash } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Karl",
   links: [
     {
       title: "About",
@@ -22,15 +22,15 @@ export const navigation = {
       title: "Links",
       link: "/links",
     },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
+    //{
+    // title: "Blog",
+    //  link: "https://medium.com/@hashirshoaeb",
+    //}
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Karl",
+  description: "Aspiring financial analyst with a background in coding and data analysis",
   image: profile.src,
   buttons: [
     {
@@ -40,18 +40,16 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://docs.google.com/document/d/1tNNvDsnfChzU5XYQM2T0WlhS_hc3HTGcmi8KWWCiz2I/edit?usp=sharing",
       isPrimary: false,
     },
   ],
 }
 
 export const about = {
-  title: "Who I am",
+  title: "Mission Statement",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I'm interested in a financial analyst role and my coding skills bring a unique background. My personal projects demonstrate my ability to analyze complex data and apply technical skills to solve problems. I'm passionate about transitioning into finance where I can utilize my coding background to collaborate within a team and provide insight to the company's success. ",
   ],
 }
 
@@ -59,8 +57,8 @@ export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Financial Analysis",
+      description: "Multiple projects analyzing financial models and providing forecasting",
       icons: null,
     },
     {
@@ -75,40 +73,44 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "Calculator Project",
+      description: "This React-based project implements a basic calculator with functionalities for adding, subtracting, multiplying, and dividing numbers. It utilizes the useReducer hook for state management and provides a clear and user-friendly interface.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+          icon: faArrowUpRightFromSquare,
+          link: "https://karkar1234.github.io/Calculator-App/",
         },
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: "https://github.com/KarKar1234/Calculator-App",
         },
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "Caleo Cafe",
+      description: "I teamed up with Caleo Cafe Angola to build a dynamic website tailored to their brand and customer needs. Through meticulous design and collaboration with the owners, we crafted an intuitive platform that highlights their menu offerings and seamless ordering.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+          icon: faArrowUpRightFromSquare,
+          link: "http://www.caleocafeangola.com/",
         },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-        },
+        //{
+        //icon: faGithub,
+        //link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+        //},
       ]
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "Movie Search Engine",
+      description: "My first project during the Front-End developer bootcamp, I integrated HTML, CSS, and JavaScript to create a responsive website. Utilizing an API database, it provides an interface for users to search for films. Please note the site is not optimized for mobile devices.",
       icons: [
         {
+          icon: faArrowUpRightFromSquare,
+          link: "https://karkar1234.github.io/Movie-Search-Engine-Project/",
+        },
+        {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: "https://github.com/KarKar1234/Movie-Search-Engine-Project",
         },
       ]
     },
@@ -117,53 +119,53 @@ export const projects = {
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at kulbrich23@gmail.com.",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:kulbrich23@gmail.com",
       isPrimary: true,
     },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
-    },
+    //{
+    //title: "Schedule Meeting",
+    // link: "https://topmate.io/hashirshoaeb",
+    //isPrimary: false,
+    //},
   ]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  title: "Karl Ulbrich | Analyst | Reactjs developer",
+  //description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@karkar1234",
+  description: "Analyst | Reactjs Developer",
   cards: [
     {
       title: "My website",
-      link: "https://hashirshoaeb.com/",
+      link: "https://www.karlulbrich.com/",
     },
     {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
+      title: "Calculator Project",
+      link: "https://karkar1234.github.io/Calculator-App//",
     },
     {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
+      title: "Caleo Cafe",
+      link: "http://www.caleocafeangola.com/",
     },
     {
       title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      link: "https://github.com/KarKar1234/",
     },
     {
       title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      link: "https://www.linkedin.com/in/karl-ulbrich-837b35127/",
     },
   ]
 }
